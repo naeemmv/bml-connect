@@ -1,0 +1,21 @@
+{
+    "name": "naeemmv/bml-connect",
+    "description": "Laravel wrapper for bml-connect",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^9.52.16|^10.0|^11.0",
+        "bankofmaldives/bml-connect-php": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Naeemmv\\BmlConnect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ibrahim Naeem",
+            "email": "ibrahim@naeem.mv"
+        }
+    ],
+    "minimum-stability": "stable"
+}
